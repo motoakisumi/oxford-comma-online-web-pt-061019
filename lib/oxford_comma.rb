@@ -1,4 +1,5 @@
 def oxford_comma(array)
+  
   if array.length == 1
     return array
     
@@ -10,4 +11,5 @@ def oxford_comma(array)
     array.pop
     array << new_word
     return array.join(", ")
+
 end
