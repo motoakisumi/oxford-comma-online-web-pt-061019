@@ -1,6 +1,6 @@
 def oxford_comma(array)
-  array.pop
+  last = array.pop
   array << "and"
-  array << "kohlrabi"
+  array << last
   array.join(", ")
 end
