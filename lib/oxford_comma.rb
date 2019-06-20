@@ -1,11 +1,11 @@
 def oxford_comma(array)
   if array.length == 1
-    array
+    return array
   elsif array.length == 2
-    array.join("and ")
+    return array.join("and ")
   else
     new_word = "and " + array.last
     array.pop
     array << new_word
-    array.join(", ")
+    return array.join(", ")
 end
